@@ -1,0 +1,11 @@
+.root {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
