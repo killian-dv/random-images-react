@@ -10,7 +10,7 @@ export function ImageListItem({ img }) {
   return (
     <div className="card">
       <a href={img.url}>
-        <img src={img.download_url} className="img" alt="" />;
+        <img src={img.download_url} className="img" alt="" />
       </a>
       <div className="card_banner">
         <img src={img.download_url} className="card_thumb" alt="" />
@@ -20,7 +20,9 @@ export function ImageListItem({ img }) {
             <div className="card_status">
               Original size : {img.height} x {img.width}
             </div>
-            <button onClick={downloadImage}>Download</button>
+            <button className="button" onClick={downloadImage}>
+              Download
+            </button>
           </div>
         </div>
       </div>
