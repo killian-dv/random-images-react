@@ -16,8 +16,6 @@ export function App() {
 
   useEffect(() => {
     if (isBottom) {
-      console.log("On est en bas, increment de la page !");
-
       incrementPage();
     }
   }, [isBottom]);
